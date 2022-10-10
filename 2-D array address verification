@@ -1,0 +1,15 @@
+#include<stdio.h>
+void main(){
+    int u,m,i,j,*p,a[3][3]={{34,67,45},{76,23,98},{354,86,24}};
+    for(i=0;i<3;i++){
+        for(j=0;j<3;j++){
+        p=&a[i][j];
+        printf("%d\t%d\n",p,*p);
+        }
+        printf("\n");
+    }
+
+        m=&a[0][0];
+        u=m+(4*(3*(1-0)+(2-0)));
+        printf("%d\n",u);
+}
